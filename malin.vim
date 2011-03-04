@@ -1,5 +1,4 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
-" Last modified: Thu 03 Mar 17:50:44 CET 2011
 
 set background=dark
 
@@ -10,6 +9,7 @@ syntax reset
 let colors_name = "malin"
 
 hi Cursor       guifg=#000000 guibg=#cccccc
+hi CursorLine   guibg=#333333
 hi Folded       guibg=#384048 guifg=#a0a8b0
 hi LineNr       guifg=#888888
 hi NonText      guifg=#555555
