@@ -22,7 +22,7 @@ hi Title        guifg=#ff80ff
 hi VertSplit    guifg=#333333 guibg=#333333
 hi Visual       guifg=#ffffff guibg=#333333
 
-hi TagListFileName guibg=#333333
+hi MyTagListFileName guibg=#333333
 
 hi Comment  guifg=#9cc2ff
 hi Constant guifg=#ff6d82
