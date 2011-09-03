@@ -6,7 +6,7 @@ hi clear
 
 syntax reset
 
-let colors_name = "malin"
+let colors_name = "ninja"
 
 hi Cursor       guifg=#000000 guibg=#cccccc
 hi CursorLine   guibg=#333333
