@@ -2,27 +2,27 @@
 
 set background=dark
 
-hi clear
+highlight clear
 
 syntax reset
 
 let colors_name = "ninja"
 
-hi Cursor       guifg=#000000 guibg=#cccccc
-hi CursorLine   guibg=#333333
-hi Folded       guibg=#333333 guifg=#a0a8b0
-hi FoldColumn   guibg=#333333
-hi LineNr       guifg=#888888
-hi NonText      guifg=#555555
-hi Normal       guifg=#ffffff guibg=#161616
-hi SpecialKey   guifg=#444444
-hi StatusLine   guifg=#444444 guibg=#ffffff
-hi StatusLineNC guifg=#444444 guibg=#aaaaaa
-hi Title        guifg=#ff80ff
-hi VertSplit    guifg=#333333 guibg=#333333
-hi Visual       guifg=#ffffff guibg=#333333
+highlight Cursor       guifg=#000000 guibg=#cccccc
+highlight CursorLine                 guibg=#333333
+highlight Folded       guifg=#a0a8b0 guibg=#333333
+highlight FoldColumn                 guibg=#333333
+highlight LineNr       guifg=#888888
+highlight NonText      guifg=#555555
+highlight Normal       guifg=#ffffff guibg=#111111
+highlight SpecialKey   guifg=#444444
+highlight StatusLine   guifg=#444444 guibg=#ffffff
+highlight StatusLineNC guifg=#444444 guibg=#aaaaaa
+highlight Title        guifg=#ff80ff
+highlight VertSplit    guifg=#333333 guibg=#333333
+highlight Visual       guifg=#ffffff guibg=#333333
 
-hi Comment  guifg=#9cc2ff
-hi Constant guifg=#ff6d82
-hi Function guifg=#60ff60
+highlight Comment  guifg=#9cc2ff
+highlight Constant guifg=#ff6d82
+highlight Function guifg=#60ff60
 
