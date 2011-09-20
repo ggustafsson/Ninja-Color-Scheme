@@ -1,5 +1,8 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
+" This is version 1.0
+" You can find the latest version at https://github.com/ggustafsson/Ninja
+
 set background=dark
 
 highlight clear
@@ -22,7 +25,8 @@ highlight Title        guifg=#ff80ff
 highlight VertSplit    guifg=#333333 guibg=#333333
 highlight Visual       guifg=#ffffff guibg=#333333
 
-highlight Comment  guifg=#9cc2ff
-highlight Constant guifg=#ff6d82
-highlight Function guifg=#60ff60
+highlight Underlined gui=none
+highlight Comment    guifg=#aaaaaa
+highlight Constant   guifg=#ff6d82
+highlight Function   guifg=#60ff60
 
