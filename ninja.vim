@@ -26,9 +26,9 @@ highlight SpecialKey   guifg=#444444
 highlight Statement    guifg=#fffb43
 highlight StatusLine   guifg=#444444 guibg=#ffffff
 highlight StatusLineNC guifg=#444444 guibg=#aaaaaa
-highlight TabLine guibg=#2a2a2a gui=none
-highlight TabLineFill guifg=#2a2a2a
-highlight TabLineSel guibg=#666666
+highlight TabLine      guibg=#2a2a2a               gui=none
+highlight TabLineFill  guifg=#2a2a2a
+highlight TabLineSel   guibg=#666666
 highlight Title        guifg=#ff80ff
 highlight Type         guifg=#73ff40
 highlight Underlined                               gui=none
