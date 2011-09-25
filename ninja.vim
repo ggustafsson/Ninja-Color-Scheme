@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 2.1 - Find latest version at https://github.com/ggustafsson/Ninja-Color-Scheme
+" This is version 2.2 - Find latest version at https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
 
@@ -22,7 +22,7 @@ highlight NonText      guifg=#555555
 highlight Normal       guifg=#ffffff guibg=#111111
 highlight PreProc      guifg=#7282ff
 highlight Special      guifg=#ff633f
-highlight SpecialKey   guifg=#444444
+highlight SpecialKey   guifg=#555555
 highlight Statement    guifg=#fffb43
 highlight StatusLine   guifg=#444444 guibg=#ffffff
 highlight StatusLineNC guifg=#444444 guibg=#aaaaaa
