@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 2.0 - Find latest version at http://github.com/ggustafsson/Ninja-Color-Scheme
+" This is version 2.0 - Find latest version at https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
 
