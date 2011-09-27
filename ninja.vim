@@ -34,7 +34,6 @@ highlight StatusLineNC guifg=#444444 guibg=#aaaaaa          ctermfg=darkgrey cte
 highlight TabLine      guifg=#888888 guibg=#2a2a2a gui=none ctermfg=grey                      cterm=none
 highlight TabLineFill  guifg=#2a2a2a                        ctermfg=darkgrey
 highlight TabLineSel                 guibg=#666666          ctermfg=black    ctermbg=white
-highlight Title        guifg=yellow                         ctermfg=red
 highlight Todo         guifg=#000000
 highlight Type         guifg=#73ff40
 highlight Underlined                               gui=none
