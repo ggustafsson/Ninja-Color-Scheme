@@ -9,7 +9,7 @@ The default colors are pretty good so i only changed the things that is not
 good enough for me. Kept it pretty simple.
 
 
-Installation
+Usage
 ------------
 Download the **ninja.vim** file and put it in **~/vim/colors** and run
 **:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc**).
