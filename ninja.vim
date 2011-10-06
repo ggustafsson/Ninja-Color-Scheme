@@ -11,7 +11,7 @@ syntax reset
 
 let colors_name = "ninja"
 
-highlight ColorColumn                guibg=#222222                           ctermbg=darkgrey
+highlight ColorColumn                guibg=#0a0a0a                           ctermbg=darkgrey
 highlight Comment      guifg=#c0ae8f                        ctermfg=grey
 highlight Constant     guifg=#ff53d4
 highlight Cursor       guifg=#000000 guibg=#cccccc
