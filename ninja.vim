@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 2.8 - Find latest version at:
+" This is version 2.9 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -34,7 +34,7 @@ highlight StatusLineNC guifg=#444444 guibg=#aaaaaa          ctermfg=darkgrey cte
 highlight TabLine      guifg=#888888 guibg=#2a2a2a gui=none ctermfg=grey                      cterm=none
 highlight TabLineFill  guifg=#2a2a2a                        ctermfg=darkgrey
 highlight TabLineSel                 guibg=#666666          ctermfg=black    ctermbg=white
-highlight Todo         guifg=#000000
+highlight Todo         guifg=#ffffff guibg=#444444          ctermfg=white    ctermbg=darkgrey
 highlight Type         guifg=#73ff40
 highlight Underlined                               gui=none
 highlight VertSplit    guifg=#333333 guibg=#333333          ctermfg=darkgrey ctermbg=darkgrey
