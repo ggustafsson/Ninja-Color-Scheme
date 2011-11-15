@@ -10,7 +10,7 @@ good enough for me. Kept it pretty simple.
 
 
 Usage
-------------
+-----
 Download the **ninja.vim** file and put it in **~/vim/colors/** and run
 **:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc**).
 

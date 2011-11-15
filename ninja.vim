@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 3.0 - Find latest version at:
+" This is version 3.1 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -23,13 +23,13 @@ highlight MatchParen   guifg=#ffffff guibg=#4a4a4a          ctermfg=white
 highlight ModeMsg      guifg=#7282ff                        ctermfg=blue
 highlight NonText      guifg=#555555                        ctermfg=darkgrey
 highlight Normal       guifg=#ffffff guibg=#111111
-highlight Search       guifg=#ffffff guibg=#275769                           ctermbg=blue
 highlight Statement    guifg=#fffb43
 highlight StatusLine   guifg=#444444 guibg=#ffffff          ctermfg=darkgrey ctermbg=white
 highlight StatusLineNC guifg=#444444 guibg=#aaaaaa          ctermfg=darkgrey ctermbg=white
 highlight TabLine      guifg=#888888 guibg=#2a2a2a gui=none ctermfg=grey                      cterm=none
 highlight TabLineFill  guifg=#2a2a2a                        ctermfg=darkgrey
 highlight TabLineSel                 guibg=#666666          ctermfg=black    ctermbg=white
+highlight Todo         guifg=#ffffff guibg=#444444          ctermfg=white    ctermbg=darkgrey
 highlight Type         guifg=#73ff40
 highlight Underlined                               gui=none
 highlight VertSplit    guifg=#333333 guibg=#333333          ctermfg=darkgrey ctermbg=darkgrey
@@ -47,7 +47,4 @@ highlight link Special WarningMsg
 
 highlight clear SpecialKey
 highlight link SpecialKey NonText
-
-highlight clear Todo
-highlight link Todo Normal
 
