@@ -3,11 +3,8 @@ Ninja Color Scheme
 
 Description
 -----------
-My *AWESOME* color scheme for Vim text editor. *1980s style ninja powah!*
-
-The default colors are pretty good so i only changed the things that is not
-good enough for me. Kept it pretty simple.
-
+My simple but awesome color scheme for the Vim text editor. The default colors
+are pretty good so i only changed the things that wasn't good enough.
 
 Usage
 -----
