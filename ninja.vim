@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.1 - Find latest version at:
+" This is version 4.1.1 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -17,16 +17,17 @@ highlight Cursor       guifg=#000000 guibg=#cccccc
 highlight CursorLine   guifg=#ffffff guibg=#262626 ctermfg=white ctermbg=235 cterm=none
 highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermfg=white ctermbg=22
 highlight DiffDelete   guifg=#5f0000 guibg=#5f0000 ctermfg=52 ctermbg=52
-highlight Directory    ctermfg=cyan cterm=none
+highlight Directory    ctermfg=cyan
 highlight ErrorMsg     ctermbg=red
 highlight Folded       guifg=#c1c29b guibg=#303030 ctermfg=144 ctermbg=236
+highlight Identifier   cterm=none
 highlight LineNr       guifg=#7c7d7d ctermfg=240
 highlight MatchParen   guifg=#ffffff guibg=#444444 ctermfg=white ctermbg=236
 highlight ModeMsg      guifg=#66e4fe ctermfg=cyan
 highlight NonText      guifg=#525354 gui=none ctermfg=235 term=none
 highlight Normal       guifg=#ffffff guibg=#111111 term=none
 highlight PreProc      guifg=#7282ff ctermfg=blue
-highlight Special      guifg=#ff633f
+highlight Special      guifg=#ff633f ctermfg=red
 highlight Statement    guifg=#fffb43
 highlight StatusLine   guifg=#ffffff guibg=#444444 gui=none ctermfg=white ctermbg=238 cterm=none
 highlight StatusLineNC guifg=#a3a5a5 guibg=#444444 gui=none ctermfg=245 ctermbg=238 cterm=none
