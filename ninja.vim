@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.1.1 - Find latest version at:
+" This is version 4.1.2 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -10,7 +10,7 @@ syntax reset
 
 let colors_name = "ninja"
 
-highlight ColorColumn  guibg=#2a2a2a ctermbg=235
+highlight ColorColumn  guibg=#262626 ctermbg=235
 highlight Comment      guifg=#c1c29b ctermfg=144
 highlight Constant     guifg=#ff53d4
 highlight Cursor       guifg=#000000 guibg=#cccccc
