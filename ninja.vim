@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.1.2 - Find latest version at:
+" This is version 4.2 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -27,6 +27,8 @@ highlight ModeMsg      guifg=#66e4fe ctermfg=cyan
 highlight NonText      guifg=#525354 gui=none ctermfg=235 term=none
 highlight Normal       guifg=#ffffff guibg=#111111 term=none
 highlight PreProc      guifg=#7282ff ctermfg=blue
+highlight Search       guifg=#000000 guibg=#ffffff ctermfg=black ctermbg=white
+highlight IncSearch    guifg=#000000 guibg=#ffffff gui=none ctermfg=black ctermbg=white cterm=none
 highlight Special      guifg=#ff633f ctermfg=red
 highlight Statement    guifg=#fffb43
 highlight StatusLine   guifg=#ffffff guibg=#444444 gui=none ctermfg=white ctermbg=238 cterm=none
