@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.3 - Find latest version at:
+" This is version 4.3.1 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -25,12 +25,11 @@ highlight IncSearch    guifg=#000000 guibg=#ffffff gui=none ctermfg=black ctermb
 highlight LineNr       guifg=#7c7d7d ctermfg=240
 highlight MatchParen   guifg=#ffffff guibg=#444444 ctermfg=white ctermbg=236
 highlight ModeMsg      guifg=#66e4fe ctermfg=cyan
-highlight NonText      guifg=#525354 gui=none ctermfg=235
+highlight NonText      guifg=#7c7d7d gui=none ctermfg=240
 highlight Normal       guifg=#ffffff guibg=#111111
 highlight PreProc      guifg=#7282ff ctermfg=blue
 highlight Search       guifg=#000000 guibg=#ffffff ctermfg=black ctermbg=white
 highlight Special      guifg=#ff633f ctermfg=red
-highlight SpecialKey   guifg=#7c7d7d ctermfg=240
 highlight Statement    guifg=#fffb43
 highlight StatusLine   guifg=#ffffff guibg=#444444 gui=none ctermfg=white ctermbg=238 cterm=none
 highlight StatusLineNC guifg=#a3a5a5 guibg=#444444 gui=none ctermfg=245 ctermbg=238 cterm=none
@@ -48,6 +47,7 @@ highlight clear DiffText
 highlight clear FoldColumn
 highlight clear MoreMsg
 highlight clear Question
+highlight clear SpecialKey
 highlight clear Todo
 highlight clear Underlined
 
@@ -55,5 +55,6 @@ highlight link DiffText   ErrorMsg
 highlight link FoldColumn Folded
 highlight link MoreMsg    Type
 highlight link Question   Type
+highlight link SpecialKey NonText
 highlight link Todo       MatchParen
 
