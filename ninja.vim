@@ -30,7 +30,7 @@ highlight Normal       guifg=#ffffff guibg=#111111
 highlight PreProc      guifg=#7282ff ctermfg=blue
 highlight Search       guifg=#000000 guibg=#ffffff ctermfg=black ctermbg=white
 highlight Special      guifg=#ff633f ctermfg=red
-highlight Statement    guifg=#fffb43
+highlight Statement    guifg=#fffb43 gui=none
 highlight StatusLine   guifg=#ffffff guibg=#444444 gui=none ctermfg=white ctermbg=238 cterm=none
 highlight StatusLineNC guifg=#a3a5a5 guibg=#444444 gui=none ctermfg=245 ctermbg=238 cterm=none
 highlight TabLine      guifg=#848585 guibg=#303030 gui=none ctermfg=241 ctermbg=236 cterm=none
