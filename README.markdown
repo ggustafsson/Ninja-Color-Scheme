@@ -9,8 +9,8 @@ are pretty good so i only changed the things that wasn't good enough.
 Usage
 -----
 Download the **ninja.vim** file and put it in **~/.vim/colors/** and run
-**:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc**).
-
+**:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc** if
+you want the setting to stick).
 
 Suggestions
 -----------
