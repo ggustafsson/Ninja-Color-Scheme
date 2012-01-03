@@ -1,20 +1,16 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.4.1 - Find latest version at:
+" This is version 4.5 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
-if ( !has("gui_running") && !(&t_Co == 256) )
-  echohl ErrorMsg
-  echomsg "This color scheme requires 256 color terminal!"
-  echohl NONE
-else
-  set background=dark
+set background=dark
 
-  highlight clear
-  syntax reset
+highlight clear
+syntax reset
 
-  let colors_name = "ninja"
+let colors_name = "ninja"
 
+if ( has("gui_running") || (&t_Co == 256) )
   highlight ColorColumn  guibg=#262626 ctermbg=235
   highlight Comment      guifg=#c1c29b ctermfg=144
   highlight Constant     guifg=#ff53d4
@@ -60,5 +56,15 @@ else
   highlight link Question   Type
   highlight link SpecialKey NonText
   highlight link Todo       MatchParen
+else
+  highlight LineNr      ctermfg=darkgrey
+  highlight ModeMsg     ctermfg=cyan
+  highlight NonText     ctermfg=darkgrey
+  highlight TabLine     ctermfg=grey cterm=none
+  highlight TabLineFill ctermfg=white cterm=none
+  highlight TabLineSel  ctermfg=cyan cterm=none
+
+  highlight clear SpecialKey
+  highlight link SpecialKey NonText
 endif
 
