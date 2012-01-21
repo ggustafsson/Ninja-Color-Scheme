@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.6 - Find latest version at:
+" This is version 4.6.1 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -19,7 +19,7 @@ if ( has("gui_running") || (&t_Co == 256) )
   highlight Cursor       guifg=#000000 guibg=#cccccc
   highlight CursorLine   guifg=#ffffff guibg=#262626 ctermbg=235 cterm=none
   highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermbg=22
-  highlight DiffDelete   guifg=#870000 guibg=#870000 ctermfg=52 ctermbg=88
+  highlight DiffDelete   guifg=#870000 guibg=#870000 gui=none ctermfg=52 ctermbg=88
   highlight ErrorMsg     guibg=#ff0000 ctermbg=196
   highlight Folded       guifg=#c1c29b guibg=#303030 ctermfg=144 ctermbg=236
   highlight Identifier   guifg=#40fefc cterm=none
@@ -49,6 +49,7 @@ if ( has("gui_running") || (&t_Co == 256) )
   highlight Type         guifg=#79fd47 gui=none ctermfg=green
   highlight VertSplit    guifg=#303030 guibg=#303030 gui=none ctermfg=233 ctermbg=236 cterm=none
   highlight Visual       guifg=#ffffff guibg=#303030 gui=none ctermfg=255 ctermbg=236 cterm=none
+  highlight VisualNOS    gui=underline cterm=underline
   highlight WarningMsg   guifg=#ff4421 ctermfg=196
 
   highlight clear Constant
@@ -79,12 +80,17 @@ if ( has("gui_running") || (&t_Co == 256) )
 else
   " If Vim can only use less than 256 colors then use these colors:
 
-  highlight LineNr      ctermfg=darkgrey
-  highlight ModeMsg     ctermfg=cyan
-  highlight NonText     ctermfg=darkgrey
-  highlight TabLine     ctermfg=grey cterm=none
-  highlight TabLineFill ctermfg=white cterm=none
-  highlight TabLineSel  ctermfg=cyan cterm=none
+  highlight DiffText     cterm=none
+  highlight Identifier   cterm=none
+  highlight LineNr       ctermfg=darkgrey
+  highlight ModeMsg      ctermfg=cyan cterm=none
+  highlight NonText      ctermfg=darkgrey
+  highlight StatusLine   ctermbg=darkgrey cterm=none
+  highlight StatusLineNC ctermfg=grey ctermbg=darkgrey cterm=none
+  highlight TabLine      ctermfg=grey cterm=none
+  highlight TabLineFill  ctermfg=white cterm=none
+  highlight TabLineSel   ctermfg=cyan cterm=none
+  highlight VisualNOS    cterm=none
 
   highlight clear SpecialKey
   highlight link SpecialKey NonText
