@@ -1,6 +1,8 @@
 Ninja Color Scheme
 ==================
 
+![Ninja Color Scheme](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview.png)
+
 Description
 -----------
 My simple but awesome color scheme for the Vim text editor. The default colors
