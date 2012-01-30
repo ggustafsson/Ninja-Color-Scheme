@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.7 - Find latest version at:
+" This is version 4.7.1 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -96,15 +96,22 @@ if ( has("gui_running") || (&t_Co == 256) )
 else
   " If Vim can only use less than 256 colors then use these colors:
 
+  if (&t_Co >= 16)
+    " Use these colors only when the terminal supports 16 or more colors.
+    " This looks pretty bad under 8 colors console.
+
+    highlight StatusLine   ctermbg=darkgrey cterm=none
+    highlight StatusLineNC ctermfg=grey ctermbg=darkgrey cterm=none
+    highlight VertSplit    ctermfg=darkgrey ctermbg=darkgrey cterm=none
+  endif
+
   highlight Comment      ctermfg=grey
   highlight DiffText     cterm=none
   highlight Identifier   cterm=none
   highlight LineNr       ctermfg=darkgrey
   highlight ModeMsg      ctermfg=cyan cterm=none
   highlight NonText      ctermfg=darkgrey
-  highlight StatusLine   ctermbg=darkgrey cterm=none
-  highlight StatusLineNC ctermfg=grey ctermbg=darkgrey cterm=none
-  highlight TabLine      ctermfg=grey cterm=none
+  highlight TabLine      ctermfg=grey ctermbg=none cterm=none
   highlight TabLineFill  ctermfg=white cterm=none
   highlight TabLineSel   ctermfg=cyan cterm=none
   highlight VisualNOS    cterm=none
