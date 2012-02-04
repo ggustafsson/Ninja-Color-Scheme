@@ -17,7 +17,7 @@ if ( has("gui_running") || (&t_Co == 256) )
   highlight Comment      guifg=#c1c29b ctermfg=144
   highlight Conceal      guifg=#cdcfcf guibg=#6c6c6c
   highlight Cursor       guifg=#000000 guibg=#cccccc
-  highlight CursorLine   guifg=#ffffff guibg=#262626 ctermbg=235 cterm=none
+  highlight CursorLine   guibg=#262626 ctermbg=235 cterm=none
   highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermbg=22
   highlight DiffDelete   guifg=#870000 guibg=#870000 gui=none ctermfg=52 ctermbg=88
   highlight ErrorMsg     guibg=#d60000 ctermbg=160
