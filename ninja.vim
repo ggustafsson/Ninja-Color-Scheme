@@ -142,13 +142,13 @@ if !exists("g:ninja_fancy_statusline")
   let g:ninja_fancy_statusline = 0
 endif
 if ( (has("gui_running") || (&t_Co == 256)) && (g:ninja_fancy_statusline == 1) )
-  highlight StatusLine guibg=#005f87 ctermbg=25
+  highlight StatusLine guibg=#005e86 ctermbg=24
 
   augroup Ninja
     autocmd!
 
     autocmd InsertEnter * highlight StatusLine guibg=#8f282d ctermbg=124
-    autocmd InsertLeave * highlight StatusLine guibg=#005f87 ctermbg=25
+    autocmd InsertLeave * highlight StatusLine guibg=#005e86 ctermbg=24
   augroup END
 endif
 

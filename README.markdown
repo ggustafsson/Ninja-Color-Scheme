@@ -24,7 +24,7 @@ Configuration
 If you got support for 256 colors or more then you can use the optional fancy
 statusline colors i've added. Under normal mode the active statusline is blue
 and under insert mode the active statusline is turned red. Add this to your
-~/.vimrc file **before** running **colorscheme ninja**:
+**~/.vimrc** file **before** running **colorscheme ninja**:
 
     let g:ninja_fancy_statusline = 1
 
