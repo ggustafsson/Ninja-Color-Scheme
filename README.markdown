@@ -2,17 +2,29 @@ Ninja Color Scheme
 ==================
 
 ![Ninja Color Scheme](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview.png)
+![Fancy Statusline](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview2.png)
 
 Description
 -----------
 My simple but awesome color scheme for the Vim text editor. The default colors
 are pretty good so i only changed the things that wasn't good enough.
 
+This color scheme is meant to be used with MacVim/GVim or 256 color terminal.
+
 Usage
 -----
 Download the **ninja.vim** file and put it in **~/.vim/colors/** and run
 **:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc** if
 you want the setting to stick).
+
+Configuration
+-------------
+If you got support for 256 colors or more then you can use the optional fancy
+statusline colors i've added. Under normal mode the active statusline is blue
+and under insert mode the active statusline is turned red. Add this to your
+~/.vimrc file **before** running **colorscheme ninja**:
+
+    let g:ninja_fancy_statusline = 1
 
 Suggestions
 -----------

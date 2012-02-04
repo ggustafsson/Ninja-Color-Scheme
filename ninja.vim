@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.7.1 - Find latest version at:
+" This is version 4.8 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -20,7 +20,7 @@ if ( has("gui_running") || (&t_Co == 256) )
   highlight CursorLine   guifg=#ffffff guibg=#262626 ctermbg=235 cterm=none
   highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermbg=22
   highlight DiffDelete   guifg=#870000 guibg=#870000 gui=none ctermfg=52 ctermbg=88
-  highlight ErrorMsg     guibg=#ff0000 ctermbg=196
+  highlight ErrorMsg     guibg=#d60000 ctermbg=160
   highlight Folded       guifg=#c1c29b guibg=#303030 ctermfg=144 ctermbg=236
   highlight Identifier   guifg=#40fefc cterm=none
   highlight LineNr       guifg=#7c7e7e ctermfg=240
@@ -134,5 +134,21 @@ else
   highlight MineSweeper6      ctermfg=red ctermbg=darkgrey
   highlight MineSweeper7      ctermfg=red ctermbg=darkgrey
   highlight MineSweeper8      ctermfg=red ctermbg=darkgrey
+endif
+
+" Put let g:ninja_fancy_statusline = 1 in your ~/.vimrc file to make the
+" active statusline blue under normal mode and red when under insert mode.
+if !exists("g:ninja_fancy_statusline")
+  let g:ninja_fancy_statusline = 0
+endif
+if ( (has("gui_running") || (&t_Co == 256)) && (g:ninja_fancy_statusline == 1) )
+  highlight StatusLine guibg=#005eae ctermbg=25
+
+  augroup Ninja
+    autocmd!
+
+    autocmd InsertEnter * highlight StatusLine guibg=#ae0000 ctermbg=124
+    autocmd InsertLeave * highlight StatusLine guibg=#005eae ctermbg=25
+  augroup END
 endif
 
