@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.8 - Find latest version at:
+" This is version 4.8.1 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -142,13 +142,13 @@ if !exists("g:ninja_fancy_statusline")
   let g:ninja_fancy_statusline = 0
 endif
 if ( (has("gui_running") || (&t_Co == 256)) && (g:ninja_fancy_statusline == 1) )
-  highlight StatusLine guibg=#005eae ctermbg=25
+  highlight StatusLine guibg=#005f87 ctermbg=25
 
   augroup Ninja
     autocmd!
 
-    autocmd InsertEnter * highlight StatusLine guibg=#ae0000 ctermbg=124
-    autocmd InsertLeave * highlight StatusLine guibg=#005eae ctermbg=25
+    autocmd InsertEnter * highlight StatusLine guibg=#8f282d ctermbg=124
+    autocmd InsertLeave * highlight StatusLine guibg=#005f87 ctermbg=25
   augroup END
 endif
 
