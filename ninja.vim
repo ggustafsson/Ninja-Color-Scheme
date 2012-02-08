@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.8.1 - Find latest version at:
+" This is version 4.8.2 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -10,7 +10,7 @@ syntax reset
 
 let colors_name = "ninja"
 
-if ( has("gui_running") || (&t_Co == 256) )
+if has("gui_running") || &t_Co == 256
   " If Vim can use 256 colors or more then use these colors:
 
   highlight ColorColumn  guibg=#262626 ctermbg=235
@@ -96,7 +96,7 @@ if ( has("gui_running") || (&t_Co == 256) )
 else
   " If Vim can only use less than 256 colors then use these colors:
 
-  if (&t_Co >= 16)
+  if &t_Co >= 16
     " Use these colors only when the terminal supports 16 or more colors.
     " This looks pretty bad under 8 colors console.
 
@@ -141,7 +141,7 @@ endif
 if !exists("g:ninja_fancy_statusline")
   let g:ninja_fancy_statusline = 0
 endif
-if ( (has("gui_running") || (&t_Co == 256)) && (g:ninja_fancy_statusline == 1) )
+if (has("gui_running") || &t_Co == 256) && g:ninja_fancy_statusline == 1
   highlight StatusLine guibg=#005e86 ctermbg=24
 
   augroup Ninja
