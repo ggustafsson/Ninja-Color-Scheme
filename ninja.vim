@@ -105,16 +105,16 @@ else
     highlight VertSplit    ctermfg=darkgrey ctermbg=darkgrey cterm=none
   endif
 
-  highlight Comment      ctermfg=grey
-  highlight DiffText     cterm=none
-  highlight Identifier   cterm=none
-  highlight LineNr       ctermfg=darkgrey
-  highlight ModeMsg      ctermfg=cyan cterm=none
-  highlight NonText      ctermfg=darkgrey
-  highlight TabLine      ctermfg=grey ctermbg=none cterm=none
-  highlight TabLineFill  ctermfg=white cterm=none
-  highlight TabLineSel   ctermfg=cyan cterm=none
-  highlight VisualNOS    cterm=none
+  highlight Comment     ctermfg=grey
+  highlight DiffText    cterm=none
+  highlight Identifier  cterm=none
+  highlight LineNr      ctermfg=darkgrey
+  highlight ModeMsg     ctermfg=cyan cterm=none
+  highlight NonText     ctermfg=darkgrey
+  highlight TabLine     ctermfg=grey ctermbg=none cterm=none
+  highlight TabLineFill ctermfg=white cterm=none
+  highlight TabLineSel  ctermfg=cyan cterm=none
+  highlight VisualNOS   cterm=none
 
   highlight clear SpecialKey
   highlight link SpecialKey NonText
@@ -141,6 +141,7 @@ endif
 if !exists("g:ninja_fancy_statusline")
   let g:ninja_fancy_statusline = 0
 endif
+
 if (has("gui_running") || &t_Co == 256) && g:ninja_fancy_statusline == 1
   highlight StatusLine guibg=#005e86 ctermbg=24
 
