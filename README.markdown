@@ -1,10 +1,10 @@
 Ninja Color Scheme
 ==================
 
-![Preview 1](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview1.png)
-![Preview 2](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview2.png)
-![Preview 3](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview3.png)
-![Preview 4](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview4.png)
+![Preview 1](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview/Preview1.png)
+![Preview 2](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview/Preview2.png)
+![Preview 3](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview/Preview3.png)
+![Preview 4](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview/Preview4.png)
 
 Description
 -----------
