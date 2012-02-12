@@ -11,7 +11,13 @@ Description
 My simple but awesome color scheme for the Vim text editor. The default colors
 are pretty good so i only changed the things that wasn't good enough.
 
-This color scheme is meant to be used with MacVim/GVim or 256 color terminal.
+This color scheme is meant to be used with graphical Vim or under 256 color
+terminal. I have done all i can to make the colors look identical between both.
+There are a few cases where the colors differs, they are very close but look
+slightly better under graphical Vim.
+
+Under 8 or 16 color terminals very few things are changed but it's still an
+improvement and great when you want consistent looks in all situations.
 
 Usage
 -----
@@ -19,15 +25,15 @@ Download the **ninja.vim** file and put it in **~/.vim/colors/** and run
 **:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc** if
 you want the setting to stick).
 
-Ninja works great with **Pathogen** so you can just put the whole directory in
-**~/.vim/bundle** if you want.
+Ninja works great with **Pathogen** so if you are already using it you can put
+the whole directory under **~/.vim/bundle** for a hassel free installation.
 
 Configuration
 -------------
-If you got support for 256 colors or more then you can use the optional fancy
-statusline colors i've added. Under normal mode the active statusline is blue
-and under insert mode the active statusline is turned red. Add this to your
-**~/.vimrc** file **before** running **colorscheme ninja**:
+If you want then you can use the optional fancy statusline colors i've added.
+Under normal mode the active statusline is blue and under insert mode the
+active statusline is turned red. Add this to your **~/.vimrc** file **before**
+running **colorscheme ninja**:
 
     let g:ninja_fancy_statusline = 1
 
