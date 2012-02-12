@@ -19,6 +19,9 @@ Download the **ninja.vim** file and put it in **~/.vim/colors/** and run
 **:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc** if
 you want the setting to stick).
 
+Ninja works great with **Pathogen** so you can just put the whole directory in
+**~/.vim/bundle** if you want.
+
 Configuration
 -------------
 If you got support for 256 colors or more then you can use the optional fancy
