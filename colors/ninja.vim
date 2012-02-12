@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.8.2 - Find latest version at:
+" This is version 4.8.3 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -48,7 +48,7 @@ if has("gui_running") || &t_Co == 256
   highlight Title        guifg=#ff53d4 gui=none ctermfg=201
   highlight Type         guifg=#79fd47 gui=none ctermfg=83
   highlight VertSplit    guifg=#303030 guibg=#303030 gui=none ctermfg=233 ctermbg=236 cterm=none
-  highlight Visual       guifg=#ffffff guibg=#444444 gui=none ctermfg=238 ctermbg=236 cterm=none
+  highlight Visual       guifg=#ffffff guibg=#444444 gui=none ctermfg=15 ctermbg=238 cterm=none
   highlight VisualNOS    gui=underline cterm=underline
   highlight WarningMsg   guifg=#ff4421 ctermfg=196
 
