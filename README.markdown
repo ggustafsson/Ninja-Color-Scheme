@@ -9,15 +9,17 @@ Ninja Color Scheme
 Description
 -----------
 My simple but awesome color scheme for the Vim text editor. The default colors
-are pretty good so i only changed the things that wasn't good enough.
+are pretty good so i only changed the things that wasn't good enough for my
+taste.
 
 This color scheme is meant to be used with graphical Vim or under 256 color
 terminal. I have done all i can to make the colors look identical between both.
-There are a few cases where the colors differs, they are very close but look
-slightly better under graphical Vim.
+There are a few cases where the colors differs but they are still very close,
+just slightly better under graphical Vim.
 
-Under 8 or 16 color terminals very few things are changed but it's still an
-improvement and great when you want consistent looks in all situations.
+Under 8 or 16 color terminals very few colors are changed from the default
+color scheme but it's still an improvement and great if you want a consistent
+look under all different environments.
 
 Usage
 -----
@@ -25,8 +27,9 @@ Download the **ninja.vim** file and put it in **~/.vim/colors/** and run
 **:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc** if
 you want the setting to stick).
 
-Ninja works great with **Pathogen** so if you are already using it you can put
-the whole directory under **~/.vim/bundle** for a hassel free installation.
+Ninja works great with **Pathogen** so if you are already using it you then you
+can put this whole Git repository under **~/.vim/bundle** for a hassle free
+installation.
 
 Configuration
 -------------
