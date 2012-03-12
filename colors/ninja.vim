@@ -79,6 +79,7 @@ if has("gui_running") || &t_Co == 256
   highlight link WildMenu     Search
 
   " This is for viminesweeper. https://github.com/mfumi/viminesweeper
+  " Put let g:minesweeper_custom_colors = 1 in your ~/.vimrc file.
   highlight MineSweeperStatus guifg=#c1c29b ctermfg=144
   highlight MineSweeperBomb   guifg=#ffffff guibg=#262626 ctermfg=none ctermbg=235
   highlight MineSweeperField  guifg=#262626 guibg=#262626 ctermfg=233 ctermbg=235
@@ -120,6 +121,7 @@ else
   highlight link SpecialKey NonText
 
   " This is for viminesweeper. https://github.com/mfumi/viminesweeper
+  " Put let g:minesweeper_custom_colors = 1 in your ~/.vimrc file.
   highlight MineSweeperStatus ctermfg=yellow
   highlight MineSweeperBomb   ctermfg=none ctermbg=darkgrey
   highlight MineSweeperField  ctermfg=darkgrey ctermbg=darkgrey
