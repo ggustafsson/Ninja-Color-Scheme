@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.8.4 - Find latest version at:
+" This is version 4.8.5 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -15,25 +15,25 @@ if has("gui_running") || &t_Co == 256
 
   highlight ColorColumn  guibg=#262626 ctermbg=235
   highlight Comment      guifg=#c1c29b ctermfg=144
-  highlight Conceal      guifg=#cdcfcf guibg=#6c6c6c
+  highlight Conceal      guifg=#cdcfcf guibg=#6c6c6c ctermbg=242
   highlight Cursor       guifg=#000000 guibg=#cccccc
   highlight CursorLine   guibg=#262626 ctermbg=235 cterm=none
+  highlight CursorLineNr ctermfg=11 gui=none
   highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermbg=22
   highlight DiffDelete   guifg=#870000 guibg=#870000 gui=none ctermfg=52 ctermbg=88
   highlight ErrorMsg     guibg=#d70000 ctermbg=160
   highlight Folded       guifg=#c1c29b guibg=#303030 ctermfg=144 ctermbg=236
   highlight Identifier   guifg=#40fefc cterm=none
   highlight LineNr       guifg=#7c7e7e ctermfg=240
-  highlight MatchParen   guifg=#ffffff guibg=#444444 ctermbg=238
   highlight ModeMsg      guifg=#2dfefd gui=none ctermfg=51 cterm=none
   highlight NonText      guifg=#7c7e7e gui=none ctermfg=240
   highlight Normal       guifg=#ffffff guibg=#111111
-  highlight Pmenu        guibg=#ff0087 ctermbg=198
-  highlight PmenuSbar    guibg=#a8a8a8
-  highlight PmenuSel     guibg=#6c6c6c
+  highlight Pmenu        guifg=#ffffff guibg=#ff0087 ctermfg=white ctermbg=198
+  highlight PmenuSbar    guifg=#ffffff guibg=#a8a8a8 ctermfg=white ctermbg=248
+  highlight PmenuSel     guibg=#6c6c6c ctermfg=white ctermbg=8
   highlight PreProc      guifg=#7282ff ctermfg=27
   highlight Search       guibg=#ffff00 ctermbg=226
-  highlight SignColumn   guifg=#40fefc guibg=#6c6c6c
+  highlight SignColumn   guifg=#40fefc guibg=#6c6c6c ctermfg=14 ctermbg=242
   highlight Special      guifg=#ff633f ctermfg=196
   highlight SpellBad     ctermbg=88
   highlight SpellCap     ctermbg=26
@@ -59,6 +59,7 @@ if has("gui_running") || &t_Co == 256
   highlight clear Directory
   highlight clear Error
   highlight clear FoldColumn
+  highlight clear MatchParen
   highlight clear MoreMsg
   highlight clear Question
   highlight clear SpecialKey
@@ -72,10 +73,11 @@ if has("gui_running") || &t_Co == 256
   highlight link Directory    ModeMsg
   highlight link Error        ErrorMsg
   highlight link FoldColumn   Folded
+  highlight link MatchParen   Pmenu
   highlight link MoreMsg      Type
   highlight link Question     Type
   highlight link SpecialKey   NonText
-  highlight link Todo         MatchParen
+  highlight link Todo         Pmenu
   highlight link WildMenu     Search
 
   " This is for viminesweeper. https://github.com/mfumi/viminesweeper
