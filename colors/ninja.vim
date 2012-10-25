@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.8.5 - Find latest version at:
+" This is version 4.8.6 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -13,7 +13,7 @@ let colors_name = "ninja"
 if has("gui_running") || &t_Co == 256
   " If Vim can use 256 colors or more then use these colors:
 
-  highlight ColorColumn  guibg=#262626 ctermbg=235
+  highlight ColorColumn  guibg=#1c1c1c ctermbg=234
   highlight Comment      guifg=#c1c29b ctermfg=144
   highlight Conceal      guifg=#cdcfcf guibg=#6c6c6c ctermbg=242
   highlight Cursor       guifg=#000000 guibg=#cccccc
