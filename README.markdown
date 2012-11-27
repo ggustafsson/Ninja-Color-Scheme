@@ -14,7 +14,7 @@ taste.
 
 This color scheme is meant to be used with graphical Vim or under 256 color
 terminal. I have done all i can to make the colors look identical between
-both.  There are a few cases where the colors differs but they are still very
+both. There are a few cases where the colors differs but they are still very
 close, just slightly better under graphical Vim.
 
 Under 8 or 16 color terminals very few colors are changed from the default
