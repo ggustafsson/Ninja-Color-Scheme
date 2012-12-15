@@ -165,4 +165,3 @@ elseif &t_Co >= 16 && g:ninja_fancy_statusline == 1
     autocmd InsertLeave * highlight StatusLine ctermbg=darkblue
   augroup END
 endif
-

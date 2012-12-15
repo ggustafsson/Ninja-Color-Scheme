@@ -45,4 +45,3 @@ Suggestions
 If you think i should change something just email me at
 **gustafsson.g at gmail.com** with specific highlight group(s) and color(s).
 Preferably attach a screenshot of the modification so i can easily see it.
-
