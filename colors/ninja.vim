@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.8.7 - Find latest version at:
+" This is version 4.9 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -13,12 +13,14 @@ let colors_name = "ninja"
 if has("gui_running") || &t_Co == 256
   " If Vim can use 256 colors or more then use these colors:
 
+  highlight clear CursorLine
+
   highlight ColorColumn  guibg=#1c1c1c ctermbg=234
   highlight Comment      guifg=#c1c29b ctermfg=144
   highlight Conceal      guifg=#cdcfcf guibg=#6c6c6c ctermbg=242
   highlight Cursor       guifg=#000000 guibg=#cccccc
-  highlight CursorLine   guibg=#262626 ctermbg=235 cterm=none
-  highlight CursorLineNr guifg=#7c7e7e guibg=#262626 ctermfg=240 ctermbg=235 gui=none
+  highlight CursorLine   gui=underline cterm=underline
+  highlight CursorLineNr guifg=#7c7e7e gui=underline ctermfg=240 cterm=underline
   highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermbg=22
   highlight DiffDelete   guifg=#870000 guibg=#870000 gui=none ctermfg=52 ctermbg=88
   highlight ErrorMsg     guibg=#d70000 ctermbg=160
