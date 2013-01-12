@@ -142,7 +142,7 @@ else
   highlight MineSweeper8      ctermfg=red ctermbg=darkgrey
 endif
 
-" Put let g:ninja_fancy_statusline = 1 in your ~/.vimrc file to make the
+" Put 'let g:ninja_fancy_statusline = 1' in your ~/.vimrc file to make the
 " active statusline blue under normal mode and red when under insert mode.
 if !exists("g:ninja_fancy_statusline")
   let g:ninja_fancy_statusline = 0
