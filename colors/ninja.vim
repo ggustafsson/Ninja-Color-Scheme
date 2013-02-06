@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.9.1 - Find latest version at:
+" This is version 4.9.2 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -20,6 +20,7 @@ if has("gui_running") || &t_Co == 256
   highlight Conceal      guifg=#cdcfcf guibg=#6c6c6c ctermbg=242
   highlight Cursor       guifg=#000000 guibg=#cccccc
   highlight CursorLine   gui=underline cterm=underline
+  highlight CursorLineNr guifg=#ff7911 gui=none ctermfg=9
   highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermbg=22
   highlight DiffDelete   guifg=#870000 guibg=#870000 gui=none ctermfg=52 ctermbg=88
   highlight ErrorMsg     guibg=#d70000 ctermbg=160
@@ -55,7 +56,6 @@ if has("gui_running") || &t_Co == 256
 
   highlight clear Constant
   highlight clear CursorColumn
-  highlight clear CursorLineNr
   highlight clear DiffChange
   highlight clear DiffText
   highlight clear Directory
@@ -71,7 +71,6 @@ if has("gui_running") || &t_Co == 256
 
   highlight link Constant     Title
   highlight link CursorColumn CursorLine
-  highlight link CursorLineNr LineNr
   highlight link DiffText     ErrorMsg
   highlight link Directory    ModeMsg
   highlight link Error        ErrorMsg
