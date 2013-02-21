@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.9.2 - Find latest version at:
+" This is version 4.9.3 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -81,23 +81,6 @@ if has("gui_running") || &t_Co == 256
   highlight link SpecialKey   NonText
   highlight link Todo         Pmenu
   highlight link WildMenu     Search
-
-  " This is for viminesweeper. https://github.com/mfumi/viminesweeper
-  " Put let g:minesweeper_custom_colors = 1 in your ~/.vimrc file.
-  highlight MineSweeperStatus guifg=#c1c29b ctermfg=144
-  highlight MineSweeperBomb   guifg=#ffffff guibg=#262626 ctermfg=none ctermbg=235
-  highlight MineSweeperField  guifg=#262626 guibg=#262626 ctermfg=233 ctermbg=235
-  highlight MineSweeperFlag   guifg=#ff53d4 guibg=#262626 ctermfg=201 ctermbg=235
-  highlight MineSweeperHatena guifg=#7282ff guibg=#262626 ctermfg=27 ctermbg=235
-  highlight MineSweeper0      guifg=#535454 guibg=#262626 ctermfg=233 ctermbg=235
-  highlight MineSweeper1      guifg=#7282ff guibg=#262626 ctermfg=27 ctermbg=235
-  highlight MineSweeper2      guifg=#79fd47 guibg=#262626 ctermfg=83 ctermbg=235
-  highlight MineSweeper3      guifg=#ff4421 guibg=#262626 ctermfg=196 ctermbg=235
-  highlight MineSweeper4      guifg=#ff4421 guibg=#262626 ctermfg=196 ctermbg=235
-  highlight MineSweeper5      guifg=#ff4421 guibg=#262626 ctermfg=196 ctermbg=235
-  highlight MineSweeper6      guifg=#ff4421 guibg=#262626 ctermfg=196 ctermbg=235
-  highlight MineSweeper7      guifg=#ff4421 guibg=#262626 ctermfg=196 ctermbg=235
-  highlight MineSweeper8      guifg=#ff4421 guibg=#262626 ctermfg=196 ctermbg=235
 else
   " If Vim can only use less than 256 colors then use these colors:
 
@@ -123,23 +106,6 @@ else
 
   highlight clear SpecialKey
   highlight link SpecialKey NonText
-
-  " This is for viminesweeper. https://github.com/mfumi/viminesweeper
-  " Put let g:minesweeper_custom_colors = 1 in your ~/.vimrc file.
-  highlight MineSweeperStatus ctermfg=yellow
-  highlight MineSweeperBomb   ctermfg=none ctermbg=darkgrey
-  highlight MineSweeperField  ctermfg=darkgrey ctermbg=darkgrey
-  highlight MineSweeperFlag   ctermfg=magenta ctermbg=darkgrey
-  highlight MineSweeperHatena ctermfg=blue ctermbg=darkgrey
-  highlight MineSweeper0      ctermfg=darkgrey ctermbg=darkgrey
-  highlight MineSweeper1      ctermfg=blue ctermbg=darkgrey
-  highlight MineSweeper2      ctermfg=green ctermbg=darkgrey
-  highlight MineSweeper3      ctermfg=red ctermbg=darkgrey
-  highlight MineSweeper4      ctermfg=red ctermbg=darkgrey
-  highlight MineSweeper5      ctermfg=red ctermbg=darkgrey
-  highlight MineSweeper6      ctermfg=red ctermbg=darkgrey
-  highlight MineSweeper7      ctermfg=red ctermbg=darkgrey
-  highlight MineSweeper8      ctermfg=red ctermbg=darkgrey
 endif
 
 " Put 'let g:ninja_fancy_statusline = 1' in your ~/.vimrc file to make the
