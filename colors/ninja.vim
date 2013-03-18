@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.9.6 - Find latest version at:
+" This is version 4.9.7 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -31,6 +31,7 @@ if has("gui_running") || &t_Co == 256
   highlight ModeMsg      guifg=#2dfefd gui=none ctermfg=51 cterm=none
   highlight NonText      guifg=#7c7e7e gui=none ctermfg=240
   highlight Normal       guifg=#ffffff guibg=#111111
+  highlight PmenuSbar    guibg=#a4a5a6 ctermbg=245
   highlight PmenuSel     guibg=#6c6c6c ctermfg=white ctermbg=8
   highlight PreProc      guifg=#7282ff ctermfg=27
   highlight Search       guibg=#ffff00 ctermbg=226
