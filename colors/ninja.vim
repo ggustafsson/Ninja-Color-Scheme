@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.9.4 - Find latest version at:
+" This is version 4.9.5 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -27,6 +27,7 @@ if has("gui_running") || &t_Co == 256
   highlight Folded       guifg=#c1c29b guibg=#303030 ctermfg=144 ctermbg=236
   highlight Identifier   guifg=#40fefc cterm=none
   highlight LineNr       guifg=#7c7e7e ctermfg=240
+  highlight MatchParen   guifg=#ffffff guibg=#008f8e ctermfg=white ctermbg=3
   highlight ModeMsg      guifg=#2dfefd gui=none ctermfg=51 cterm=none
   highlight NonText      guifg=#7c7e7e gui=none ctermfg=240
   highlight Normal       guifg=#ffffff guibg=#111111
