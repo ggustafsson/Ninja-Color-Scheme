@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.9.3 - Find latest version at:
+" This is version 4.9.4 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -61,7 +61,6 @@ if has("gui_running") || &t_Co == 256
   highlight clear Directory
   highlight clear Error
   highlight clear FoldColumn
-  highlight clear MatchParen
   highlight clear MoreMsg
   highlight clear Question
   highlight clear SpecialKey
@@ -75,7 +74,6 @@ if has("gui_running") || &t_Co == 256
   highlight link Directory    ModeMsg
   highlight link Error        ErrorMsg
   highlight link FoldColumn   Folded
-  highlight link MatchParen   Pmenu
   highlight link MoreMsg      Type
   highlight link Question     Type
   highlight link SpecialKey   NonText
