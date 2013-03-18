@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.9.5 - Find latest version at:
+" This is version 4.9.6 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -27,12 +27,10 @@ if has("gui_running") || &t_Co == 256
   highlight Folded       guifg=#c1c29b guibg=#303030 ctermfg=144 ctermbg=236
   highlight Identifier   guifg=#40fefc cterm=none
   highlight LineNr       guifg=#7c7e7e ctermfg=240
-  highlight MatchParen   guifg=#ffffff guibg=#008f8e ctermfg=white ctermbg=3
+  highlight MatchParen   guifg=#ffffff guibg=#008a88 ctermfg=white ctermbg=30
   highlight ModeMsg      guifg=#2dfefd gui=none ctermfg=51 cterm=none
   highlight NonText      guifg=#7c7e7e gui=none ctermfg=240
   highlight Normal       guifg=#ffffff guibg=#111111
-  highlight Pmenu        guifg=#ffffff guibg=#ff0087 ctermfg=white ctermbg=198
-  highlight PmenuSbar    guifg=#ffffff guibg=#a8a8a8 ctermfg=white ctermbg=248
   highlight PmenuSel     guibg=#6c6c6c ctermfg=white ctermbg=8
   highlight PreProc      guifg=#7282ff ctermfg=27
   highlight Search       guibg=#ffff00 ctermbg=226
@@ -63,6 +61,8 @@ if has("gui_running") || &t_Co == 256
   highlight clear Error
   highlight clear FoldColumn
   highlight clear MoreMsg
+  highlight clear Pmenu
+  highlight clear PmenuSel
   highlight clear Question
   highlight clear SpecialKey
   highlight clear Todo
@@ -76,9 +76,11 @@ if has("gui_running") || &t_Co == 256
   highlight link Error        ErrorMsg
   highlight link FoldColumn   Folded
   highlight link MoreMsg      Type
+  highlight link Pmenu        MatchParen
+  highlight link PmenuSel     StatusLine
   highlight link Question     Type
   highlight link SpecialKey   NonText
-  highlight link Todo         Pmenu
+  highlight link Todo         MatchParen
   highlight link WildMenu     Search
 else
   " If Vim can only use less than 256 colors then use these colors:
