@@ -40,6 +40,13 @@ running **colorscheme ninja**:
 
     let g:ninja_fancy_statusline = 1
 
+Extra
+-----
+The file **Terminal.png** contains a screenshot that can be used to easily
+change the colors in Terminal.app using the color picker. I use the "Pro"
+profile as a starting point and then i disable bold fonts, enable bright
+colors for bold text and then i change the bright colors using the image.
+
 Suggestions
 -----------
 If you think i should change something just email me at
