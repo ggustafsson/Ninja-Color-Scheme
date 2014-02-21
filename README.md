@@ -1,9 +1,17 @@
 Ninja Color Scheme
 ==================
 
-![Preview 1](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview/Preview1.png)
-![Preview 2](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview/Preview2.png)
-![Preview 3](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Preview/Preview3.png)
+![Preview 1](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview1.png)
+
+https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview1.png
+
+![Preview 2](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview2.png)
+
+https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview2.png
+
+![Preview 3](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview3.png)
+
+https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview3.png
 
 Description
 -----------
@@ -26,9 +34,9 @@ free installation.
 
 Extra
 -----
-The file **Terminal.png** contains a screenshot that can be used to easily
-change the colors in Terminal.app using the color picker. I use the "Pro"
-profile as a starting point and then i disable bold fonts, enable bright
+The file **Extras/Terminal.png** contains a screenshot that can be used to
+easily change the colors in Terminal.app using the color picker. I use the
+"Pro" profile as a starting point and then i disable bold fonts, enable bright
 colors for bold text and then i change the bright colors using the image.
 
 Suggestions
