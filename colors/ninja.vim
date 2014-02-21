@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 4.9.9 - Find latest version at:
+" This is version 5.0.0 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -13,77 +13,82 @@ let colors_name = "ninja"
 if has("gui_running") || &t_Co == 256
   " If Vim can use 256 colors or more then use these colors:
 
+  " This must be here to get rid of guibg settings.
   highlight clear CursorLine
+  highlight clear DiffDelete
 
+  " Colors that should be exactly the same in Vim and graphical Vim.
   highlight ColorColumn  guibg=#262626 ctermbg=235
-  highlight Comment      guifg=#c1c29b ctermfg=144
-  highlight Conceal      guifg=#cdcfcf guibg=#6c6c6c ctermbg=242
-  highlight Cursor       guifg=#000000 guibg=#cccccc
-  highlight CursorLine   gui=underline cterm=underline
-  highlight CursorLineNr guifg=#ff7911 gui=none ctermfg=9
-  highlight DiffAdd      guifg=#ffffff guibg=#005f00 ctermbg=22
-  highlight DiffDelete   guifg=#870000 guibg=#870000 gui=none ctermfg=52 ctermbg=88
-  highlight ErrorMsg     guibg=#d70000 ctermbg=160
-  highlight Folded       guifg=#c1c29b guibg=#303030 ctermfg=144 ctermbg=236
-  highlight Identifier   guifg=#40fefc cterm=none
-  highlight IncSearch    guifg=#ffff00 ctermfg=226
-  highlight LineNr       guifg=#7c7e7e ctermfg=240
-  highlight MatchParen   guifg=#ffffff guibg=#008a88 ctermfg=white ctermbg=30
-  highlight ModeMsg      guifg=#2dfefd gui=none ctermfg=51 cterm=none
-  highlight NonText      guifg=#7c7e7e gui=none ctermfg=240
+  highlight Comment      guifg=#c2c19b ctermfg=144
+  highlight CursorLine   gui=underline cterm=underline term=underline
+  highlight DiffAdd      guifg=#ffffff guibg=#128660 ctermfg=white ctermbg=29
+  highlight DiffDelete   guifg=#7d7d7d ctermfg=240
+  highlight ErrorMsg     guibg=#ad0c5f ctermbg=125
+  highlight Folded       guifg=#c2c19b guibg=#303030 ctermfg=144 ctermbg=236
+  highlight Identifier   guifg=#6efedd ctermfg=86 cterm=none
+  highlight IncSearch    guifg=#fffd38 ctermfg=226
+  highlight LineNr       guifg=#7d7d7d ctermfg=240
+  highlight MatchParen   guifg=#ffffff guibg=#128786 ctermfg=white ctermbg=30
+  highlight NonText      guifg=#7d7d7d gui=none ctermfg=240
   highlight Normal       guifg=#ffffff guibg=#111111
-  highlight PmenuSbar    guibg=#a4a5a6 ctermbg=245
-  highlight PmenuSel     guibg=#6c6c6c ctermfg=white ctermbg=8
-  highlight PreProc      guifg=#7282ff ctermfg=27
-  highlight Search       guibg=#ffffff ctermbg=white
-  highlight SignColumn   guifg=#40fefc guibg=#6c6c6c ctermfg=14 ctermbg=242
-  highlight Special      guifg=#ff633f ctermfg=196
-  highlight SpellBad     ctermbg=88
-  highlight SpellCap     ctermbg=26
-  highlight SpellLocal   ctermbg=30
-  highlight SpellRare    ctermbg=198
-  highlight Statement    guifg=#fafa47 gui=none
-  highlight StatusLine   guifg=#ffffff guibg=#444444 gui=none ctermbg=238 cterm=none
-  highlight StatusLineNC guifg=#a4a5a6 guibg=#444444 gui=none ctermfg=245 ctermbg=238 cterm=none
-  highlight TabLine      guifg=#848585 guibg=#303030 gui=none ctermfg=241 ctermbg=236 cterm=none
+  highlight PreProc      guifg=#4ea4fc ctermfg=33
+  highlight Special      guifg=#fc467f ctermfg=161
+  highlight Statement    guifg=#fede70 ctermfg=221 gui=none
+  highlight StatusLine   guifg=#ffffff guibg=#444444 gui=none ctermfg=white ctermbg=238 cterm=none
+  highlight StatusLineNC guifg=#9e9e9e guibg=#444444 gui=none ctermfg=247 ctermbg=238 cterm=none
+  highlight TabLine      guifg=#9e9e9e guibg=#303030 gui=none ctermfg=247 ctermbg=236 cterm=none
   highlight TabLineFill  guibg=#303030 gui=none ctermbg=236 cterm=none
   highlight TabLineSel   guibg=#444444 gui=none ctermbg=238 cterm=none
-  highlight Title        guifg=#ff53d4 gui=none ctermfg=201
-  highlight Type         guifg=#79fd47 gui=none ctermfg=83
-  highlight VertSplit    guifg=#303030 guibg=#303030 gui=none ctermfg=233 ctermbg=236 cterm=none
-  highlight Visual       guifg=#ffffff guibg=#444444 gui=none ctermfg=15 ctermbg=238 cterm=none
-  highlight VisualNOS    gui=underline cterm=underline
-  highlight WarningMsg   guifg=#ff4421 ctermfg=196
+  highlight Title        guifg=#f17efc gui=none ctermfg=171
+  highlight Type         guifg=#6efd92 gui=none ctermfg=84
+  highlight VertSplit    guifg=#303030 guibg=#303030 gui=none ctermfg=236 ctermbg=236 cterm=none
+  highlight WarningMsg   guifg=#fd7933 gui=none ctermfg=202
+
+  " Colors that are not exactly the same in Vim and graphical Vim.
+  highlight SpellBad   ctermbg=88
+  highlight SpellCap   ctermbg=26
+  highlight SpellLocal ctermbg=30
+  highlight SpellRare  ctermbg=198
 
   highlight clear Constant
   highlight clear CursorColumn
+  highlight clear CursorLineNr
   highlight clear DiffChange
   highlight clear DiffText
   highlight clear Directory
   highlight clear Error
   highlight clear FoldColumn
+  highlight clear ModeMsg
   highlight clear MoreMsg
   highlight clear Pmenu
   highlight clear PmenuSel
   highlight clear Question
+  highlight clear Search
+  highlight clear SignColumn
   highlight clear SpecialKey
   highlight clear Todo
   highlight clear Underlined
+  highlight clear Visual
   highlight clear WildMenu
 
   highlight link Constant     Title
   highlight link CursorColumn CursorLine
+  highlight link CursorLineNr WarningMsg
   highlight link DiffText     ErrorMsg
-  highlight link Directory    ModeMsg
+  highlight link Directory    Identifier
   highlight link Error        ErrorMsg
   highlight link FoldColumn   Folded
+  highlight link ModeMsg      Identifier
   highlight link MoreMsg      Type
   highlight link Pmenu        MatchParen
   highlight link PmenuSel     StatusLine
   highlight link Question     Type
+  highlight link Search       MatchParen
+  highlight link SignColumn   StatusLine
   highlight link SpecialKey   NonText
   highlight link Todo         MatchParen
-  highlight link WildMenu     Search
+  highlight link Visual       StatusLine
+  highlight link WildMenu     MatchParen
 else
   " If Vim can only use less than 256 colors then use these colors:
 
@@ -109,30 +114,4 @@ else
 
   highlight clear SpecialKey
   highlight link SpecialKey NonText
-endif
-
-" Put 'let g:ninja_fancy_statusline = 1' in your ~/.vimrc file to make the
-" active statusline blue under normal mode and red when under insert mode.
-if !exists("g:ninja_fancy_statusline")
-  let g:ninja_fancy_statusline = 0
-endif
-
-if (has("gui_running") || &t_Co == 256) && g:ninja_fancy_statusline == 1
-  highlight StatusLine guibg=#005e86 ctermbg=24
-
-  augroup Ninja
-    autocmd!
-
-    autocmd InsertEnter * highlight StatusLine guibg=#8f282d ctermbg=124
-    autocmd InsertLeave * highlight StatusLine guibg=#005e86 ctermbg=24
-  augroup END
-elseif &t_Co >= 16 && g:ninja_fancy_statusline == 1
-  highlight StatusLine ctermbg=darkblue
-
-  augroup Ninja
-    autocmd!
-
-    autocmd InsertEnter * highlight StatusLine ctermbg=darkred
-    autocmd InsertLeave * highlight StatusLine ctermbg=darkblue
-  augroup END
 endif
