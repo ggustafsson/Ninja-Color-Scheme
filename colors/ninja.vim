@@ -25,7 +25,7 @@ if has("gui_running") || &t_Co == 256
   highlight DiffDelete   guifg=#7d7d7d ctermfg=240
   highlight ErrorMsg     guibg=#ad0c5f ctermbg=125
   highlight Folded       guifg=#c2c19b guibg=#303030 ctermfg=144 ctermbg=236
-  highlight Identifier   guifg=#6efedd ctermfg=86 cterm=none
+  highlight Identifier   guifg=#6efffe ctermfg=87 cterm=none
   highlight IncSearch    guifg=#fffd38 ctermfg=226
   highlight LineNr       guifg=#7d7d7d ctermfg=240
   highlight MatchParen   guifg=#ffffff guibg=#128786 ctermfg=white ctermbg=30
