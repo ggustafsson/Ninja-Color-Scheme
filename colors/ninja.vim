@@ -1,6 +1,6 @@
 " Göran Gustafsson <gustafsson.g@gmail.com>
 
-" This is version 5.0.0 - Find latest version at:
+" This is version 5.1.0 - Find latest version at:
 " https://github.com/ggustafsson/Ninja-Color-Scheme
 
 set background=dark
@@ -32,15 +32,15 @@ if has("gui_running") || &t_Co == 256
   highlight NonText      guifg=#7d7d7d gui=none ctermfg=240
   highlight Normal       guifg=#ffffff guibg=#111111
   highlight PreProc      guifg=#4ea4fc ctermfg=33
-  highlight Special      guifg=#fc467f ctermfg=161
-  highlight Statement    guifg=#fede70 ctermfg=221 gui=none
+  highlight Special      guifg=#fc442e ctermfg=196
+  highlight Statement    guifg=#fffd6d ctermfg=227 gui=none
   highlight StatusLine   guifg=#ffffff guibg=#444444 gui=none ctermfg=white ctermbg=238 cterm=none
   highlight StatusLineNC guifg=#9e9e9e guibg=#444444 gui=none ctermfg=247 ctermbg=238 cterm=none
   highlight TabLine      guifg=#9e9e9e guibg=#303030 gui=none ctermfg=247 ctermbg=236 cterm=none
   highlight TabLineFill  guibg=#303030 gui=none ctermbg=236 cterm=none
   highlight TabLineSel   guibg=#444444 gui=none ctermbg=238 cterm=none
-  highlight Title        guifg=#f17efc gui=none ctermfg=171
-  highlight Type         guifg=#6efd92 gui=none ctermfg=84
+  highlight Title        guifg=#fd4dfc gui=none ctermfg=201
+  highlight Type         guifg=#6efd6e gui=none ctermfg=83
   highlight VertSplit    guifg=#303030 guibg=#303030 gui=none ctermfg=236 ctermbg=236 cterm=none
   highlight WarningMsg   guifg=#fd7933 gui=none ctermfg=202
 
