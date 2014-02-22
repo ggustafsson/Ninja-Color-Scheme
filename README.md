@@ -9,10 +9,6 @@ https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview1.png
 
 https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview2.png
 
-![Preview 3](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview3.png)
-
-https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview3.png
-
 Description
 -----------
 This color scheme is meant to be used with graphical Vim or under a 256 colors
