@@ -93,8 +93,8 @@ else
   " If Vim can only use less than 256 colors then use these colors:
 
   if &t_Co >= 16
-    " Use these colors only when the terminal supports 16 or more colors.
-    " This looks pretty bad under 8 colors console.
+    " Use these colors only when the terminal supports 16 or more colors. This
+    " looks pretty bad under 8 colors console.
 
     highlight StatusLine   ctermbg=darkgrey cterm=none
     highlight StatusLineNC ctermfg=grey ctermbg=darkgrey cterm=none

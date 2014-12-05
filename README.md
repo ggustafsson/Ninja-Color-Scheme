@@ -21,12 +21,12 @@ look under all different environments.
 Usage
 -----
 Download the **ninja.vim** file and put it in **~/.vim/colors/** and run
-**:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc**
-if you want the setting to stick).
+**:colorscheme ninja** within Vim (add line to **~/.vimrc** or **~/.gvimrc** if
+you want the setting to stick).
 
-Ninja works great with **Pathogen** so if you are already using it you then
-you can put this whole Git repository under **~/.vim/bundle** for a hassle
-free installation.
+Ninja works great with **Pathogen** so if you are already using it you then you
+can put this whole Git repository under **~/.vim/bundle** for a hassle free
+installation.
 
 Extra
 -----
@@ -37,6 +37,6 @@ colors for bold text and then i change the bright colors using the image.
 
 Suggestions
 -----------
-If you think i should change something just email me at
-**gustafsson.g at gmail.com** with specific highlight group(s) and color(s).
-Preferably attach a screenshot of the modification so i can easily see it.
+If you think i should change something just email me at **gustafsson.g at
+gmail.com** with specific highlight group(s) and color(s).  Preferably attach a
+screenshot of the modification so i can easily see it.
