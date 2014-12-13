@@ -3,11 +3,7 @@ Ninja Color Scheme
 
 ![Preview 1](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview1.png)
 
-https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview1.png
-
 ![Preview 2](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview2.png)
-
-https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview2.png
 
 Description
 -----------
