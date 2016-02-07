@@ -1,5 +1,7 @@
-Ninja Color Scheme
-==================
+Ninja Color Scheme (Abandoned)
+==============================
+
+**Check out [Static](https://github.com/ggustafsson/Static-Color-Scheme) instead!**
 
 ![Preview 1](https://github.com/ggustafsson/Ninja-Color-Scheme/raw/master/Extras/Preview1.png)
 
